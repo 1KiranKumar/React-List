@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import InputForm from "./Components/Form/InputForm";
+import classes from './App.module.css';
+import { Routes, Route} from "react-router-dom";
+import Lists from "./Components/List/List";
 
-function App() {
+const App=()=>{ 
+  
+  const [checks,setChecks]=useState(false);
+
+  const dataHandler=()=>{
+  // setChecks((ols)=>!ols);
+  setChecks(true);
+  }
+
+ 
+  const testHandler=()=>{
+    // setChecks(current=>!current);
+   setChecks(false);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className={classes}>    
+   
+    <Routes>        
+     <Route path="/" element={<InputForm validHandler={dataHandler}/>}/>   
+      <Route path="/home" element={<Lists authorized={checks} checkHandler={testHandler}/>}/> 
+    </Routes>  
+   
+   </div>
+   
+  
   );
 }
 
-export default App;
+
+export default App; 

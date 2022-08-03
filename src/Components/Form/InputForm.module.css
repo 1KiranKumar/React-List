@@ -1,0 +1,48 @@
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+  background-color: rgb(125, 164, 215);
+  border-radius: 10px;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.top{
+  padding: 40px;
+  margin-left: 40%;
+}
+
+.input button{
+  padding: 5px;
+  margin: 0px;
+  border-radius: 6px;
+  background-color: green;  
+  color: white;
+  cursor: pointer;
+}
+
+.p{
+  color: red;
+  margin-left: 43%;
+}

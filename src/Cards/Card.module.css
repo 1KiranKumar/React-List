@@ -1,0 +1,14 @@
+.card {
+    background-color: rgb(239, 177, 177);
+    box-shadow: 0 2px 8px black;
+    border-radius: 10px;
+    width: 3rem;        
+    margin-left: 4rem;
+   margin-right: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px ;    
+  }
+
+  
+  
