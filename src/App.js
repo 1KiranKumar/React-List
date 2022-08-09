@@ -13,7 +13,11 @@ const App=()=>{
   }
 
  
+<<<<<<< HEAD
   const testHandler=()=>{  
+=======
+  const testHandler=()=>{    
+>>>>>>> 20a6f63916bff973fa9877484381496fa2ea6c0b
    setChecks(false);
   }
 
