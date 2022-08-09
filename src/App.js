@@ -11,13 +11,7 @@ const App=()=>{
   const dataHandler=()=>{  
   setChecks(true);
   }
-
- 
-<<<<<<< HEAD
-  const testHandler=()=>{  
-=======
-  const testHandler=()=>{    
->>>>>>> 20a6f63916bff973fa9877484381496fa2ea6c0b
+  const testHandler=()=>{ 
    setChecks(false);
   }
 
