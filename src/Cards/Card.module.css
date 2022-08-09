@@ -1,13 +1,15 @@
 .card {
     background-color: rgb(239, 177, 177);
     box-shadow: 0 2px 8px black;
-    border-radius: 10px;
-    width: 3rem;        
+    border-radius: 10px;       
+    max-width: 18rem;
+    max-height: 20rem;     
     margin-left: 4rem;
-   margin-right: 4rem;
+    margin-right: 4rem;
+    margin-top: 0px;
     align-items: center;
     justify-content: center;
-    margin-bottom:20px ;    
+    margin-bottom:20px;    
   }
 
   

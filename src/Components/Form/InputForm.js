@@ -37,22 +37,19 @@ const [valid,setValid]=useState(true);
     <h1 className={classes.top}>Login Form</h1>
    {valid===false && <p className={classes.p}>Please Enter valid inputs</p>}
     <div className={classes.input}>     
-     <form onSubmit={submitHandler}>
-          <label htmlFor="username">Username</label>
-          <input
-            name="username"
-            type="text" 
-            onChange={userHandler}         
-          ></input>
-          <label htmlFor="age">Password</label>
-          <input
-            name="password"
-            type="password"
-            onChange={passHandler}           
-          ></input>
-           <button>Submit</button>
-        
-        </form>
+  
+         <form onSubmit={submitHandler}>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" className="form-label">Username</label>
+    <input type="text" onChange={userHandler} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+  </div>
+  <div className="mb-3">
+    <label for="exampleInputPassword1" className="form-label">Password</label>
+    <input type="password" onChange={passHandler}  className="form-control" id="exampleInputPassword1"/>
+  </div>
+ 
+  <button type="submit" className="btn btn-primary">Submit</button>
+</form>
   </div>
   </div>
   );

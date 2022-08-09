@@ -8,14 +8,12 @@ const App=()=>{
   
   const [checks,setChecks]=useState(false);
 
-  const dataHandler=()=>{
-  // setChecks((ols)=>!ols);
+  const dataHandler=()=>{  
   setChecks(true);
   }
 
  
-  const testHandler=()=>{
-    // setChecks(current=>!current);
+  const testHandler=()=>{  
    setChecks(false);
   }
 

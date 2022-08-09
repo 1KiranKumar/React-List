@@ -58,7 +58,7 @@ const fetchMoreData = () => {
             <div>Mail: {singleData.email}</div>
             <div>Phone No: {singleData.cell}</div>        
         </Card>)
-        })}
+        })}        
         </InfiniteScroll>       
         </div>
     )

@@ -3,9 +3,11 @@
   padding: 1rem;
   width: 90%;
   max-width: 40rem;
-  background-color: rgb(125, 164, 215);
+  background-color: rgba(195, 207, 134, 0.586);
   border-radius: 10px;
+  box-shadow: 0 2px 8px black;
 }
+
 
 .input label {
   display: block;
@@ -29,13 +31,14 @@
 }
 
 .top{
-  padding: 40px;
-  margin-left: 40%;
+  text-align: center;
+  padding: 3rem;
+  margin: 2rem;
 }
 
 .input button{
   padding: 5px;
-  margin: 0px;
+  margin: 2px;
   border-radius: 6px;
   background-color: green;  
   color: white;

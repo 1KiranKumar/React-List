@@ -1,7 +1,7 @@
 .outer{
-    background-color: rgb(67, 95, 195);
+    background-color: rgba(67, 95, 195, 0.658);
     width: 25rem;    
-    height: 270px;
+    height: 20rem;
     color: white; 
     border-radius: 10px;
     align-items: center;
@@ -10,34 +10,37 @@
 
 .outer img{
     border-radius: 40px;
-    margin-left: 10rem;
+    margin-left: 6rem;
     padding-top: 5px;    
 }
 
 .outer div{
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: 2rem;
 }
 
 nav{
-    margin: 50px;
+    margin: 2rem;
     background-color: rgb(172, 219, 70);
-    height: 50px;
-    border-radius: 15px;
-    padding: 10px;
+    height: 4rem;
+    border-radius: 15px;   
+    max-width: 260%;
 }
 
-.li{  
-   margin: 45%;    
+.li{
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    align-items: center;             
-}
+    padding-top: 0.5rem;
+    margin: 2%;    
+  }
 
 .new{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .button{    
@@ -57,3 +60,4 @@ color: #f30b1a;
     background-color: rgb(247, 55, 55);
     color: aliceblue;
 }
+
