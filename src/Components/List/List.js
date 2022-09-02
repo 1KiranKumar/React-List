@@ -55,7 +55,7 @@ const fetchMoreData = () => {
            return( <Card key={i} className={classes.outer}>            
             <img src={singleData.picture.medium} alt=""></img>
             <div>Name: {singleData.name.first}</div>
-            <div>Mail: {singleData.email}</div>
+            <div>E-Mail: {singleData.email}</div>
             <div>Phone No: {singleData.cell}</div>        
         </Card>)
         })}        
